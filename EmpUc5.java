@@ -6,7 +6,19 @@ public class EmpUc5 {
 		
 		int hour;
 		int ispresent = (int) (Math.random() * 3);
-		System.out.println(ispresent);
+		
+System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM");
+
+		
+		if(ispresent == 1) {
+			System.out.println("EMPLOYEE IS PRESENT");
+		}
+			 else if (ispresent==0){
+			System.out.println("EMPLOYEE IS ABSENT");
+			 }
+			 else{
+				 System.out.println("EMPLOYEE IS parttime employee");
+			 }
 
 		
 
